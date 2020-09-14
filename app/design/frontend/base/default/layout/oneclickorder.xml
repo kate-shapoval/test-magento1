@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <oneclickorder_index_index>
+    <reference name="root">
+      <action method="setTemplate"><template>page/1column.phtml</template></action>
+    </reference>
+    <reference name="content">
+      <block type="oneclickorder/index" name="oneclickorder_index" template="oneclickorder/index.phtml"/>
+    </reference>
+  </oneclickorder_index_index> 
+</layout>
+	

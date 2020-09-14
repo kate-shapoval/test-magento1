@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <translate_adminhtml_panel_index>
+	<reference name="content">
+	  <block type="translate/adminhtml_panel" name="panel" />
+	</reference>
+  </translate_adminhtml_panel_index>
+</layout>

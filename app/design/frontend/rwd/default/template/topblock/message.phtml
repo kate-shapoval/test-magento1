@@ -1,0 +1,29 @@
+<?php
+/** @var NS_Topblock_Helper_Data $helper */
+$helper = Mage::helper('topblock');
+$message = Mage::getStoreConfig('topblock/global/topmessage', Mage::app()->getStore());
+$pages = Mage::getStoreConfig('topblock/global/pages', Mage::app()->getStore());
+$cookieKey = 'topblock_cookie';
+?>
+
+<div id="top-block" class="top-block">
+    <p>
+        <?php echo $this->outputMessage($message); ?>
+    </p>
+</div>
+<div id="top-block" class="top-block">
+    <p>
+        <?php echo $this->outputMessage($helper->getText()); ?>
+    </p>
+</div>
+<script type="text/javascript">
+    /*jQuery(document).ready(function() {
+        if (jQuery.cookie('<?= $cookieKey ?>')=='1') {
+            jQuery("#top-block").css('display', 'none');
+        }
+        jQuery("#top-block").on('click', function() {
+            jQuery("#top-block").css('display', 'none');
+            jQuery.cookie('<?= $cookieKey ?>', '1');
+        });
+    });*/
+</script>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <oneclickorder_adminhtml_orderquick_index>
+	<reference name="content">
+	  <block type="oneclickorder/adminhtml_orderquick" name="orderquick" />
+	</reference>
+  </oneclickorder_adminhtml_orderquick_index>
+</layout>

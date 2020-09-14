@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <NS_Mymodule>
+      <version>1.0.0</version>
+    </NS_Mymodule>
+  </modules>
+  <global>
+    <helpers>
+      <mymodule>
+        <class>NS_Mymodule_Helper</class>
+      </mymodule>
+    </helpers>
+  </global>
+</config> 

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <NS_Topblock>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </NS_Topblock>
+  </modules>
+</config>
